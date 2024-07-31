@@ -1,0 +1,17 @@
+/*
+Theme Name: TailPress
+Theme URI: https://github.com/jeffreyvr/tailpress
+Author: Jeffrey van Rossum
+Author URI: https://vanrossum.dev
+Description: A WordPress theme made with TailPress.
+Version: 0.1.0
+License: MIT
+License URI: https://github.com/jeffreyvr/tailpress/blob/master/LICENSE
+Text Domain: tailpress
+*/
+
+input.wpforms-field-large::placeholder,
+textarea .wpforms-field-large::placeholder {
+  opacity: 1; /* 1 */
+  color: #fff; /* 2 */
+}

@@ -1,0 +1,79 @@
+{
+  "version": 1,
+  "settings": {
+    "layout": {
+      "contentSize": "1640px",
+      "wideSize": "1920px"
+    },
+    "color": {
+      "palette": [
+        {
+          "name": "Primary",
+          "slug": "primary",
+          "color": "#f3d012"
+        },
+        {
+          "name": "Secondary",
+          "slug": "secondary",
+          "color": "#14B8A6"
+        },
+        {
+          "name": "Dark",
+          "slug": "dark",
+          "color": "#1F2937"
+        },
+        {
+          "name": "Light",
+          "slug": "light",
+          "color": "#F9FAFB"
+        },
+        {
+          "name": "Text",
+          "slug": "text",
+          "color": "#bfbfbf"
+        }
+        
+      ]
+    },
+"typography": {
+      "fontFamilies": [
+        {
+          "fontFamily": "Montserrat, sans-serif",
+          "name": "Montserrat",
+          "slug": "montserrat"
+        }
+      ],
+      "custom": {
+        "lineHeight": true,
+        "fontSize": true
+      },
+      "fontSizes": [
+        {
+          "name": "Small",
+          "size": "12px",
+          "slug": "small"
+        },
+        {
+          "name": "Regular",
+          "size": "16px",
+          "slug": "regular"
+        },
+        {
+          "name": "Large",
+          "size": "2.1875rem",
+          "slug": "large"
+        },
+        {
+          "name": "Huge",
+          "size": "48px",
+          "slug": "huge"
+        }
+      ]
+    },
+    "styles": {
+      "typography": {
+        "fontFamily": "Montserrat, sans-serif"
+      }
+    }
+  }
+}

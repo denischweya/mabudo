@@ -1,0 +1,86 @@
+.hero-home {
+    display: flex;
+    color: #ffffff;
+    max-width: 1920px;
+    padding: 0;
+    margin:0 auto 8rem;
+}
+
+.hero-home__content {
+    flex: 1;
+    padding: 11.25rem 2.625rem 5.6875rem 6%;
+    font-size: 1.5rem;
+    background-color: #000;
+}
+.hero-home__content h3 {
+    font-size: 1.5rem;
+}
+.hero-home__stat-number,
+h1.hero-home__main-heading {
+    font-size: 3.9375rem;
+    font-weight: 600;
+    line-height: 1;
+}
+.hero-home__small-heading {
+    color: #ffd700;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hero-home__main-heading {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.hero-home__description {
+    margin-bottom: 2rem;
+}
+
+.hero-home__stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.hero-home__stat {
+    text-align: left;
+    max-width: 14.125rem;
+}
+
+.hero-home__stat-number {
+    display: block;
+    font-weight: 600;
+}
+
+.hero-home__stat-label {
+    font-size: 1.5rem;
+}
+
+.hero-home__cta {
+    display: inline-block;
+    background-color: #ffd700;
+    color: #1a1a1a;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+.hero-home__image {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+}
+
+
+@media (max-width: 1440px) {
+    .hero-home__stat-label {
+        font-size: 1.15rem !important;
+    }  
+    .hero-home__stat-number, h1.hero-home__main-heading {
+        font-size: calc(3.9375rem * var(--scale-factor));
+    }
+    .entry-content p, .block-editor-block-list__layout p, .wp-block-columns p {
+        font-size: calc(1.5rem * var(--scale-factor));
+    }
+
+}
