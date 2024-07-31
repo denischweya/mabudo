@@ -1,42 +1,8 @@
-<p><img src="http://tailpress.io/images/tailpress100.svg" width="260" alt="TailPress"></p>
 
-[![GitHub release](https://img.shields.io/github/release/jeffreyvr/tailpress?include_prereleases=&sort=semver)](https://github.com/jeffreyvr/tailpress/releases/)
-[![License](https://img.shields.io/badge/License-MIT-blue)](#license)
-
-# Introduction
-
-TailPress is a minimal boilerplate theme for WordPress using [Tailwind CSS](https://tailwindcss.com/).
-
-## Getting started
-
-### Using the installer
-
-You can get started using the installer (using composer):
-
-```bash
-composer global require jeffreyvanrossum/tailpress-installer
-
-tailpress new example-theme
-```
-
-*If the tailpress command is not found, make sure to place Composer's global vendor bin in your `$PATH` ([see](#command-tailpress-not-found)).*
-
-Flags you can pass when using the installer:
-- Set a theme name `--name="Example Theme"`
-- Choose your compiler, mix or esbuild: `--compiler="esbuild"`
-- Initialize a git repository `--git`
-- Set the git branch name `--branch="main"`
-
-If you choose to install WordPress through the installer, these flags might be of interest as well:
-`--dbname`, `--dbuser`, `--dbpass` and `--dbhost`.
-
-Once your theme is ready, don't forget to cd into the directory.
-
-You will be asked if you would like to have WordPress installed as well. Keep in mind that you still need a local development environment for PHP and MySQL.
 
 ### Regular method
 
-* Clone repo `git clone https://github.com/jeffreyvr/tailpress.git && cd tailpress`
+* Clone repo `git clone https://github.com/denischweya/mabudo/ && cd mabudo`
 * Run `rm -rf .git` to remove git (or `rmdir .git` for Windows)
 * Run `npm install`
 * Run `npm run watch` to start developing
@@ -81,19 +47,4 @@ Make sure to place Composer's global vendor bin directory in your `$PATH` so the
 
 You could also find the composer's global installation path by running `composer global about` and looking up from the first line.
 
-## Links
-
-* [TailPress website](https://tailpress.io)
-* [Screencasts](https://www.youtube.com/playlist?list=PL6GBdOp044SHIOSCZejodwr1HcYsC43wG)
-* [Tailwind CSS Documentation](https://tailwindcss.com/docs)
-* [Laravel Mix Documentation](https://laravel-mix.com)
-* [Esbuild Documentation](https://esbuild.github.io)
-
-## Contributors
-
-* [Jeffrey van Rossum](https://github.com/jeffreyvr)
-* [All contributors](https://github.com/jeffreyvr/tailpress/graphs/contributors)
-
-## License
-
-MIT. Please see the [License File](/LICENSE) for more information.
+This theme has a mix of Tailwind and custom CSS
